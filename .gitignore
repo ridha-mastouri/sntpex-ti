@@ -1,0 +1,29 @@
+# Build
+/build
+/build/*
+*.o
+*.a
+*.elf
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# TI Code Composer Studio
+.settings/
+Debug/
+Release/
+ccs_debug/
+*.ccs
+*.map
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
